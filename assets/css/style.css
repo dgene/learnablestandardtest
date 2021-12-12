@@ -768,6 +768,58 @@ p {
           background: #0e1133;
           color: #fff; }
 
+          .learnable-about-8-area {
+            background-color:#F4F5F7;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; }
+          
+          .learnable-about-8-box {
+            padding: 50px 50px 145px;
+            background: #fff;
+            border-radius: 6px;
+            box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
+            position: relative;
+            overflow: hidden;
+            z-index: 10; }
+            @media only screen and (min-width: 992px) and (max-width: 1200px) {
+              .learnable-about-8-box {
+                padding: 50px 25px 145px; } }
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+              .learnable-about-8-box {
+                margin-bottom: 30px; } }
+            @media (max-width: 767px) {
+              .learnable-about-8-box {
+                margin-bottom: 30px;
+                padding: 50px 20px 145px; } }
+            .learnable-about-8-box .thumb {
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              z-index: -1; }
+            .learnable-about-8-box .title {
+              font-size: 30px;
+              line-height: 40px;
+              font-weight: 500;
+              margin-bottom: 14px; }
+              @media (max-width: 767px) {
+                .learnable-about-8-box .title {
+                  font-size: 24px;
+                  line-height: 34px; } }
+              @media only screen and (min-width: 576px) and (max-width: 767px) {
+                .learnable-about-8-box .title {
+                  font-size: 30px;
+                  line-height: 40px; } }
+            .learnable-about-8-box a {
+              border: 2px solid #db0f30;
+              color: #db0f30;
+              background: #fff;
+              margin-top: 30px; }
+              .learnable-about-8-box a:hover {
+                color: #fff;
+                background: #db0f30;
+                border-color: #db0f30; }
+
 
 
 /*===========================
